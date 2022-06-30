@@ -15,7 +15,7 @@ function App() {
           <div className='max-w-7xl mx-auto px-5 py-7 sm:px-6 lg:px-8'>
             <div className='relative flex items-center justify-start h-16'>
               <div className='flex-shrink-0 flex items-center justify-start'>
-                <Link to='/home'>
+                <Link to='/'>
                   <span className='inline-flex pt-5'>
                     <img
                       className='hidden lg:block h-16 pl-12 w-auto'
@@ -70,7 +70,7 @@ function App() {
           </div>
         </nav>
         <Routes>
-          <Route path='/home' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
           <Route path='/contact' element={<Contact />} />
