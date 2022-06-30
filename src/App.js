@@ -20,7 +20,7 @@ function App() {
                     <img
                       className='hidden lg:block h-16 pl-12 w-auto'
                       src={Logo}
-                      alt='Workflow'
+                      alt='Earthly'
                     />
                     <span className=' text-3xl pt-4 pl-2 font-Anek'>
                       Earthly.io

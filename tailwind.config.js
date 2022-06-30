@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Anek: 'Anek Latin',
+        Montserrat: 'Montserrat',
       },
     },
   },
