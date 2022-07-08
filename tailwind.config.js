@@ -7,6 +7,10 @@ module.exports = {
         Anek: 'Anek Latin',
         Montserrat: 'Montserrat',
       },
+      colors: {
+        'warmgray-200': '#e7e5e4',
+        'warmgray-400': '#a8a29e',
+      },
     },
   },
   plugins: [],

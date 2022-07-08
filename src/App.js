@@ -73,9 +73,9 @@ function App() {
           <Route path='/try' element={<Try />} />
         </Routes>
       </div>
-      <footer class='text-center text-white bg-slate-200'>
-        <div class='container pt-9'>
-          <div class='flex justify-center mb-9 pl-16'>
+      <footer>
+        <div class='justify-center text-center pt-9 bg-warmgray-200 border-2  rounded-t-lg'>
+          <div class='flex justify-center mb-9'>
             <a href='#!' class='mr-9 text-gray-800'>
               <svg
                 aria-hidden='true'
@@ -148,7 +148,7 @@ function App() {
           </div>
         </div>
 
-        <div class='text-center text-gray-700 p-4 bg-slate-400'>
+        <div class='text-center text-gray-800 p-4 bg-warmgray-400 rounded-b-xl'>
           © 2021 Copyright :{' '}
           <a
             className='font-bold text-gray-800'

@@ -1,5 +1,5 @@
 import React from 'react';
-import BannerImage from '../Images/banner_image.jpg';
+import BannerImage from '../Images/banner.jpg';
 import earth from '../Images/earth.jpg';
 
 function Home() {
@@ -28,15 +28,13 @@ function Home() {
         </div>
       </div>
       <img src={BannerImage} alt='Banner' />
-      <div className='flex'>
+      <div className='flex mt-16 mb-14'>
         <div className=' w-3/5 py-16 pl-28 pr-10'>
           <span className='font-Montserrat text-xl text-slate-700 font-bold'>
             " We need to save our planet because the finals times is coming
             right now "{' '}
           </span>
-          <br />
-          <br />
-          <div className='text-left'>
+          <div className='text-left mt-5'>
             <span className='font-Montserrat text-xm text-slate-700'>
               I am scared of climate change and the fact that a lot of adults
               aren’t taking it seriously – do you think politicians will take
@@ -59,15 +57,15 @@ function Home() {
             </span>
           </div>
         </div>
-        <div className='pt-7 pl-5'>
+        <div className='pt-7 pl-5 mt-2'>
           <img
             src={earth}
             alt='earth'
-            className='w-full object-cover object-center shadow-xm h-96  '
+            className='w-full object-cover object-center shadow-xm h-96 rounded-t-xl '
           />
 
           <div class='relative px-4 -mt-16  '>
-            <div class='bg-transparent backdrop-blur-2xl ease-out duration-300 hover:scale-110 cursor-context-menu p-5 rounded-xl shadow-lg'>
+            <div class='bg-transparent backdrop-blur-2xl ease-out duration-300 hover:scale-110 cursor-context-menu p-5 rounded-b-xl shadow-lg'>
               <div class='flex items-baseline'>
                 <span class='bg-red-500 text-white text-xs px-2 py-0.5 inline-block rounded-full uppercase font-semibold tracking-wide'>
                   Danger
@@ -95,8 +93,8 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='bg-slate-200'>
-        <div className=' py-16 px-36 text-center justify-center'>
+      <div className='bg-slate-100 py-16'>
+        <div className=' py-16 px-48 text-center justify-center'>
           <span className='font-Montserrat text-xl text-slate-800 font-bold'>
             What can we do ?{' '}
           </span>
@@ -128,13 +126,13 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className=''>
+      <div className='mt-10'>
         <br />
         <br />
-        <span className='px-12 py-1 mt-12 font-bold font-Montserrat text-2xl border-solid border-y-4  '>
+        <span className='px-16 py-1 font-bold font-Montserrat text-2xl border-solid border-y-4  '>
           PROJECTS FOR 'SAVE' THE HUMANITY
         </span>
-        <div className=' py-16 px-36 text-center justify-center'>
+        <div className=' py-7 px-36 text-center justify-center'>
           <div className='p-10 grid grid-cols-1 '>
             <div class='p-10 grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10'>
               <div class='rounded overflow-hidden shadow-lg'>
