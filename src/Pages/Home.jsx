@@ -64,7 +64,7 @@ function Home() {
             className='w-full object-cover object-center shadow-xm h-96 rounded-t-xl '
           />
 
-          <div class='relative px-4 -mt-16  '>
+          <div class='relative px-3.5 -mt-16  '>
             <div class='bg-transparent backdrop-blur-2xl ease-out duration-300 hover:scale-110 cursor-context-menu p-5 rounded-b-xl shadow-lg'>
               <div class='flex items-baseline'>
                 <span class='bg-red-500 text-white text-xs px-2 py-0.5 inline-block rounded-full uppercase font-semibold tracking-wide'>
@@ -95,7 +95,7 @@ function Home() {
       </div>
       <div className='bg-slate-100 py-16'>
         <div className=' py-16 px-48 text-center justify-center'>
-          <span className='font-Montserrat text-xl text-slate-800 font-bold'>
+          <span className='font-Montserrat text-2xl text-slate-800 font-bold'>
             What can we do ?{' '}
           </span>
           <br />
@@ -150,14 +150,20 @@ function Home() {
                   </p>
                 </div>
                 <div class='px-6 pt-4 pb-2'>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #ecosystem
+                  <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=%23ecosystem&src=typed_query'>
+                      #ecosystem
+                    </a>
                   </span>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #wildlife
+                  <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=%23wildlife&src=typed_query&f=top'>
+                      #wildlife
+                    </a>
                   </span>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #greenprotect
+                  <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=%20%23natureprotect&src=typed_query&f=top'>
+                      #greenprotect
+                    </a>
                   </span>
                 </div>
               </div>
@@ -177,14 +183,20 @@ function Home() {
                   </p>
                 </div>
                 <div class='px-6 pt-4 pb-2'>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #coalmines
+                  <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=%20%23coalmines&src=typed_query&f=top'>
+                      #coalmines
+                    </a>
                   </span>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #fortheforest
+                  <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=%23rainforests&src=typed_query&f=top/'>
+                      #rainforest
+                    </a>
                   </span>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #carbonC6
+                  <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=%23carbon&src=typed_query&f=top'>
+                      #carbonC6
+                    </a>
                   </span>
                 </div>
               </div>
@@ -264,14 +276,20 @@ function Home() {
                   </p>
                 </div>
                 <div class='px-6 pt-4 pb-2'>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #coralreefs
+                  <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=%23coralreefs&src=typed_query&f=top'>
+                      #coralreefs
+                    </a>
                   </span>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #aqualife
+                  <span class=' hover:bg-gray-300 inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=%23aqualife&src=typed_query&f=top'>
+                      #aqualife
+                    </a>
                   </span>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #sealife
+                  <span class=' hover:bg-gray-300 inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=%23sealife&src=typed_query&f=top'>
+                      #sealife
+                    </a>
                   </span>
                 </div>
               </div>
@@ -292,14 +310,20 @@ function Home() {
                   </p>
                 </div>
                 <div class='px-6 pt-4 pb-2'>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #andes
+                  <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=%20%23andes&src=typed_query&f=top'>
+                      #andes
+                    </a>
                   </span>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #watereserves
+                  <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=water%20reserves&src=typed_query&f=top'>
+                      #watereserves
+                    </a>
                   </span>
-                  <span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    #nowaternolife
+                  <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
+                    <a href='https://twitter.com/search?q=%20%23nowaternolife&src=typed_query&f=top'>
+                      #nowaternolife
+                    </a>
                   </span>
                 </div>
               </div>
