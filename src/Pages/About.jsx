@@ -82,6 +82,35 @@ function About() {
             environmental causes each year in Utah
           </p>
         </div>
+        <div className='px-2 py-2'>
+          <img
+            src='https://imgs.search.brave.com/cTF7xx0FUZ5pe-1dqR-MsFpHNPCp2NhJYLUv9Ke2Yyc/rs:fit:352:200:1/g:ce/aHR0cDovL2JyZXdi/b3VuZC1pbWFnZXMu/czMuYW1hem9uYXdz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxMy8xMS9Eb2dm/aXNoLUhlYWQtTG9n/by5qcGc'
+            className='container pl-1 '
+          />
+          <p className='text-xs font-Montserrat pt-5 tracking-wide'>
+            Provides its employees with paid time off to volunteer for multiple
+            environmental causes each year in Utah
+          </p>
+        </div>
+      </div>
+      <div class='lg:flex mb-4 m-10 rounded mx-auto'>
+        <div class='w-48 rounded shadow-lg m-10 relative flex flex-col'>
+          <img class='w-full' src={timberland} alt='Sunset in the mountains' />
+          <div class='px-6 py-4 h-full'>
+            <div class='font-bold font-Montserrat text-xm mb-2'>
+              The Coldest Sunset
+            </div>
+            <p class='text-gray-700 text-xs font-Montserrat'>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <button>
+            <img
+              className='w-12'
+              src='https://cdn-icons.flaticon.com/png/512/2898/premium/2898968.png?token=exp=1657583419~hmac=6e42d8dc2457a9e88e3b309e5fe4d5b4'
+            ></img>
+          </button>
+        </div>
       </div>
     </div>
   );
