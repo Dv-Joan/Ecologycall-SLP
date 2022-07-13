@@ -84,8 +84,27 @@ function About() {
           </p>
         </div>
       </div>
-      <div className='flex'>
-        <PartnerCard />
+      <div className='flex flex-cols-3 my-18'>
+        <PartnerCard
+          description='Provides its employees with paid time off to volunteer for
+              multiple environmental causes each year in Utahs'
+          src='https://1000logos.net/wp-content/uploads/2017/12/timberland-logo-500x281.png'
+        />
+        <PartnerCard
+          description='Provides its employees with paid time off to volunteer for
+              multiple environmental causes each year in Utahs'
+          src={optoro}
+        />
+        <PartnerCard
+          description='Provides its employees with paid time off to volunteer for
+              multiple environmental causes each year in Utahs'
+          src={timberland}
+        />
+        <PartnerCard
+          description='Provides its employees with paid time off to volunteer for
+              multiple environmental causes each year in Utahs'
+          src={timberland}
+        />
       </div>
     </div>
   );
