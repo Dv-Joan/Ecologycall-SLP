@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <div className=' mx-36 my-32 grid gap-12 grid-cols-2'>
-        <div className=''>
+        <div className='justify-center'>
           <span className='font-Anek font-black text-5xl'>About Our Team</span>
           <div>
             <p className='text-xm font-Montserrat py-5'>
@@ -41,69 +41,71 @@ function About() {
           />
         </div>
       </div>
-      <div className='mx-36 mt-32 mb-10 flex gap-40 '>
-        <div className='w-1/2'>
+      <div className=' mt-32 mb-10 flex gap-64'>
+        <div className='pl-36 w-1/2'>
           <span className='font-Anek font-black text-4xl'>
             Business Associate & Partners
           </span>
           <p className='font-Montserrat text-xm py-5'>
-            We have 400 partners around the world, with the best history of
+            We have 10+ partners around the world, with the best history of
             changing the mindset of tthe earth extinction
-            conception.asdasdasdasdasdasd asdasdasdasdasdasdasda asdasdasdas
+            conception.asdasdasdasdasdasd asdasdasdasdasdasdasda
           </p>
         </div>
-        <div className='flex-initial'>
-          <button className=' mt-16 ml-6 rounded-lg bg-slate-200 text-slate-800 font-Anek border-2 border-solid border-slate-500 hover:bg-cyan-500 active:bg-cyan-600 hover:border-slate-300 hover:text-slate-100 py-2 px-5 mr-5 my-5'>
+        <div>
+          <button className='mt-10 rounded-lg bg-slate-200 text-slate-800 font-Anek border-2 border-solid border-slate-500 hover:bg-cyan-500 active:bg-cyan-600 hover:border-slate-300 hover:text-slate-100 py-2 px-5'>
             Contact Us
           </button>
         </div>
       </div>
-      <div className=' grid grid-cols-4 gap-8 mx-36 my-18 '>
-        <div className='px-2 py-2'>
-          <img src={timberland} className='container pl-1 ' />
-          <p className='text-xs font-Montserrat tracking-wide pt-3'>
-            Provides full-time employees with up to 40 paid volunteer hours per
-            year, including an annual Earth Day event in April.
-          </p>
-        </div>
-        <div className='px-2 py-2'>
-          <img
-            src='https://content.energage.com/company-images/SK17/SE66841/SE66841_logo_orig.jpg'
-            className='container pl-1 '
-          />
-          <p className='text-xs font-Montserrat pt-5 tracking-wide'>
-            Provides its employees with paid time off to volunteer for multiple
-            environmental causes each year in Utah
-          </p>
-        </div>
-        <div className='px-2 py-2'>
-          <img src={optoro} className='container pl-1 ' />
-          <p className='text-xs font-Montserrat pt-5 tracking-wide'>
-            Provides its employees with paid time off to volunteer for multiple
-            environmental causes each year in Utah
-          </p>
-        </div>
-      </div>
-      <div className='flex flex-cols-3 my-18'>
+      <div className='justify-center mx-36 mb-16 grid gap-12 grid-cols-4 grid-rows-3'>
         <PartnerCard
-          description='Provides its employees with paid time off to volunteer for
-              multiple environmental causes each year in Utahs'
-          src='https://1000logos.net/wp-content/uploads/2017/12/timberland-logo-500x281.png'
+          description='Provides full-time employees with up to 40 paid volunteer hours per year, including an annual Earth Day event in April'
+          src={timberland}
         />
         <PartnerCard
-          description='Provides its employees with paid time off to volunteer for
-              multiple environmental causes each year in Utahs'
+          description='Provides its employees with paid time off to volunteer for multiple environmental causes each year, working with celebrated local Utah'
+          src='https://ww1.prweb.com/prfiles/2015/03/16/12928414/gI_87228_ClearlinkLogo1400px.png'
+        />
+        <PartnerCard
+          description='Technology start-up, Optoro, reduces landfill waste by helping clients extend the lifecycle of their overstocked, outdated, or returned inventory.'
           src={optoro}
         />
         <PartnerCard
-          description='Provides its employees with paid time off to volunteer for
-              multiple environmental causes each year in Utahs'
-          src={timberland}
+          description='Dogfish Head Brewery recently built a $9 million on-site facility that will allow it to clean and reuse its waste water to clean pipes and tanks'
+          src='https://images.squarespace-cdn.com/content/v1/510a02e0e4b0086d33c3c797/1472553003585-I2FZ7I5N8K5X2DOUHUP5/ke17ZwdGBToddI8pDm48kKfjwUDYLIfBqcv5lRhY7KFZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxpoH2jH5ylKjm8CrdBvie44dEkm11O0jAn7CtYa_0bDLTiC3biUQM6TmBeEePIPZg/image-asset.png?format=original'
         />
         <PartnerCard
-          description='Provides its employees with paid time off to volunteer for
-              multiple environmental causes each year in Utahs'
-          src={timberland}
+          description='Greenvelope, was founded with the goal of offering an ecofriendly alternative to paper invitations. Since the company first launched in 2008'
+          src='https://cdnpng.greenvelope.com/pub/_images/greenvelope_textlogo.png'
+        />
+        <PartnerCard
+          description='UGE International has deployed renewable energy solutions in over 80 countries around the world. Best-known for putting wind turbines on the Eiffel Tower.'
+          src='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1397202861/a186c4e6c1888de2266bb0b867293d25.jpg'
+        />
+        <PartnerCard
+          description='A leading provider of dialysis services, is working to reduce their carbon footprint both inside and outside of their Denver, Colorado headquarters'
+          src='https://cdn.worldvectorlogo.com/logos/davita.svg'
+        />
+        <PartnerCard
+          description='helps clients conserve energy by lowering consumption, incorporating energy-efficient appliances and systems'
+          src='https://logodix.com/logo/1996468.png'
+        />
+        <PartnerCard
+          description='Kicked off their GRO1000 initiative in 2011 with a goal of supporting the creation of more than 1,000 community gardens and green spaces by 2018'
+          src='https://scottsmiraclegro.com/wp-content/themes/smg-2019/images/logos/SMG_Logo-Lg.png'
+        />
+        <PartnerCard
+          description=' CEO David Crane recently announced the company is sustainability goals to reduce company carbon emissions by 50 percent by 2030 and 90 percent by 2050'
+          src='https://images.power-eng.com/wp-content/uploads/2019/08/59307-file.jpeg'
+        />
+        <PartnerCard
+          description='Today we have become the greatest threat to the health of our planet. We’re the first generation to know what we’re doing, and the last who have a chance to put things right'
+          src='https://www.eurobrandmanagement.com/wp-content/uploads/2022/06/ebm-logo-for-zoom-background-1.png'
+        />
+        <PartnerCard
+          description='Our operations constantly seek to generate efficiencies that allow us to reduce the impact of our activities and achieve efficient use of resources'
+          src='https://imgs.search.brave.com/gzsFeg6FCKjOHol24FY_4ChsXaexcMMPQ0m7YRj-p88/rs:fit:174:63:1/g:ce/aHR0cDovLzEuYnAu/YmxvZ3Nwb3QuY29t/L19jOWVCTnBOd1JM/Yy9Sek9GejVmb0tW/SS9BQUFBQUFBQUVy/cy9xUkRNcThsXzZK/by9zMzIwL2FsaWNv/cnArbG9nby5naWY.gif'
         />
       </div>
     </div>
