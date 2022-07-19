@@ -41,7 +41,7 @@ function About() {
           />
         </div>
       </div>
-      <div className=' mt-32 mb-10 flex gap-64'>
+      <div className=' mt-32 mb-16 flex gap-64'>
         <div className='pl-36 w-1/2'>
           <span className='font-Anek font-black text-4xl'>
             Business Associate & Partners
@@ -58,7 +58,7 @@ function About() {
           </button>
         </div>
       </div>
-      <div className='justify-center mx-36 mb-16 grid gap-12 grid-cols-4 grid-rows-3'>
+      <div className='justify-center mx-36 mb-64 grid gap-16 grid-cols-4 grid-rows-3'>
         <PartnerCard
           description='Provides full-time employees with up to 40 paid volunteer hours per year, including an annual Earth Day event in April'
           src={timberland}
