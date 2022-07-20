@@ -2,6 +2,9 @@ import React from 'react';
 import location from '../Images/location.png';
 import telephone from '../Images/telephone.png';
 import message from '../Images/message.png';
+import phone_contact from '../Images/phone_contact.png';
+import email_contact from '../Images/email_contact.png';
+import name_contact from '../Images/name_contact.png';
 
 function Contact() {
   return (
@@ -54,24 +57,18 @@ function Contact() {
                   </p>
                   <div class='relative w-full'>
                     <div class='flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none'>
-                      <svg
+                      <img
                         aria-hidden='true'
                         class='w-5 h-5 text-gray-500 dark:text-gray-400'
                         fill='currentColor'
                         viewBox='0 0 20 20'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path
-                          fill-rule='evenodd'
-                          d='M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z'
-                          clip-rule='evenodd'
-                        ></path>
-                      </svg>
+                        src={name_contact}
+                      />
                     </div>
                     <input
                       type='text'
                       id='simple-search'
-                      class='bg-gray-50 border-2 border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 pl-10 p-2 '
+                      class='bg-gray-50 border-2 border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 pl-10 p-2 font-Montserrat'
                     />
                   </div>
                 </div>
@@ -81,24 +78,18 @@ function Contact() {
                   </p>
                   <div class='relative w-full'>
                     <div class='flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none'>
-                      <svg
+                      <img
                         aria-hidden='true'
                         class='w-5 h-5 text-gray-500 dark:text-gray-400'
                         fill='currentColor'
                         viewBox='0 0 20 20'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path
-                          fill-rule='evenodd'
-                          d='M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z'
-                          clip-rule='evenodd'
-                        ></path>
-                      </svg>
+                        src={email_contact}
+                      />
                     </div>
                     <input
                       type='text'
                       id='simple-search'
-                      class='bg-gray-50 border-2 border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 pl-10 p-2 '
+                      class='bg-gray-50 border-2 border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 pl-10 p-2 font-Montserrat '
                     />
                   </div>
                 </div>
@@ -108,24 +99,18 @@ function Contact() {
                   </p>
                   <div class='relative w-full'>
                     <div class='flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none'>
-                      <svg
+                      <img
                         aria-hidden='true'
                         class='w-5 h-5 text-gray-500 dark:text-gray-400'
                         fill='currentColor'
                         viewBox='0 0 20 20'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <path
-                          fill-rule='evenodd'
-                          d='M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z'
-                          clip-rule='evenodd'
-                        ></path>
-                      </svg>
+                        src={phone_contact}
+                      />
                     </div>
                     <input
                       type='text'
                       id='simple-search'
-                      class='bg-gray-50 border-2 border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 pl-10 p-2 '
+                      class='bg-gray-50 border-2 border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-52 pl-10 p-2 font-Montserrat'
                     />
                   </div>
                 </div>
@@ -140,7 +125,7 @@ function Contact() {
                 <textarea
                   id='message'
                   rows='4'
-                  class='block p-2.5 w-96 h-56 text-sm text-gray-900 bg-gray-50 rounded-lg border-2 border-gray-300'
+                  class='block p-2.5 w-96 h-56 text-sm font-Montserrat text-gray-900 bg-gray-50 rounded-lg border-2 border-gray-300'
                   placeholder='Your message...'
                 ></textarea>
               </div>
@@ -151,13 +136,20 @@ function Contact() {
                 <p className='text-xs font-bold font-Montserrat'>Services</p>
               </div>
               <div>
-                <button className='rounded-lg bg-slate-200 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
+                <button className='rounded-lg bg-slate-300 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
                   Set Help
                 </button>
-                <button className='rounded-lg bg-slate-200 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
+                <button className='rounded-lg bg-slate-300 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
                   Set Help
                 </button>
-                <button className='rounded-lg bg-slate-200 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
+                <button className='rounded-lg bg-slate-300 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
+                  Set Help
+                </button>
+
+                <button className='rounded-lg bg-slate-300 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
+                  Set Help
+                </button>
+                <button className='rounded-lg bg-slate-300 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
                   Set Help
                 </button>
               </div>

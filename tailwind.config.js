@@ -6,10 +6,14 @@ module.exports = {
       fontFamily: {
         Anek: 'Anek Latin',
         Montserrat: 'Montserrat',
+        Edu: 'Edu VIC WA NT Beginner',
+        RobotoCondensed: 'Roboto Condensed',
       },
       colors: {
         'warmgray-200': '#e7e5e4',
-        'warmgray-400': '#a8a29e',
+      },
+      fontSize: {
+        footersize: '15px',
       },
     },
   },

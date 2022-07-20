@@ -108,7 +108,7 @@ function Home() {
               This usually means looking away from the major political groups:
               parties with a{' '}
               <span className='bg-green-500 rounded-full py-1 px-2 hover:bg-green-600 text-white font-semibold'>
-                <a href='https://policy.greenparty.org.uk/'>
+                <a href='https://policy.greenparty.org.uk/' target='_blank'>
                   specific “green” focus
                 </a>
               </span>{' '}
@@ -117,7 +117,9 @@ function Home() {
               <br />
               Another option is to support global movements like{' '}
               <span className='bg-green-500 rounded-full   py-1 px-2 hover:bg-green-600 text-white font-semibold'>
-                <a href='https://rebellion.global/es/'>Extinction Rebellion</a>
+                <a href='https://rebellion.global/es/' target='_blank'>
+                  Extinction Rebellion
+                </a>
               </span>{' '}
               . By turning up to rallies and showing support for groups like
               these, you can send a strong message to politicians that you care
@@ -151,17 +153,26 @@ function Home() {
                 </div>
                 <div class='px-6 pt-4 pb-2'>
                   <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=%23ecosystem&src=typed_query'>
+                    <a
+                      href='https://twitter.com/search?q=%23ecosystem&src=typed_query'
+                      target='_blank'
+                    >
                       #ecosystem
                     </a>
                   </span>
                   <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=%23wildlife&src=typed_query&f=top'>
+                    <a
+                      href='https://twitter.com/search?q=%23wildlife&src=typed_query&f=top'
+                      target='_blank'
+                    >
                       #wildlife
                     </a>
                   </span>
                   <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=%20%23natureprotect&src=typed_query&f=top'>
+                    <a
+                      target='_blank'
+                      href='https://twitter.com/search?q=%20%23natureprotect&src=typed_query&f=top'
+                    >
                       #greenprotect
                     </a>
                   </span>
@@ -184,17 +195,26 @@ function Home() {
                 </div>
                 <div class='px-6 pt-4 pb-2'>
                   <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=%20%23coalmines&src=typed_query&f=top'>
+                    <a
+                      href='https://twitter.com/search?q=%20%23coalmines&src=typed_query&f=top'
+                      target='_blank'
+                    >
                       #coalmines
                     </a>
                   </span>
                   <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=%23rainforests&src=typed_query&f=top/'>
+                    <a
+                      href='https://twitter.com/search?q=%23rainforests&src=typed_query&f=top/'
+                      target='_blank'
+                    >
                       #rainforest
                     </a>
                   </span>
                   <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=%23carbon&src=typed_query&f=top'>
+                    <a
+                      target='_blank'
+                      href='https://twitter.com/search?q=%23carbon&src=typed_query&f=top'
+                    >
                       #carbonC6
                     </a>
                   </span>
@@ -218,15 +238,22 @@ function Home() {
                 </div>
                 <div class='px-6 pt-4 pb-2'>
                   <span className='bg-blue-600 rounded-full text-sm inline-block mr-2 mb-2 py-1 px-3 hover:bg-blue-800 text-white font-semibold'>
-                    <a href='https://www.space.com/topics/blue-origin'>
+                    <a
+                      target='_blank'
+                      href='https://www.space.com/topics/blue-origin'
+                    >
                       Blue Origin
                     </a>
                   </span>
                   <span className='bg-red-500 rounded-full py-1 mr-2 mb-2 px-3 hover:bg-red-600 text-white font-semibold inline-block text-sm'>
-                    <a href='https://solarsystem.nasa.gov/'>NASA</a>
+                    <a target='_blank' href='https://solarsystem.nasa.gov/'>
+                      NASA
+                    </a>
                   </span>
                   <span className='bg-slate-700 rounded-full py-1  mr-2 mb-2 px-3 hover:bg-slate-800 text-white inline-block text-sm font-semibold'>
-                    <a href='https://www.spacex.com/'>SpaceX</a>
+                    <a target='_blank' href='https://www.spacex.com/'>
+                      SpaceX
+                    </a>
                   </span>
                 </div>
               </div>
@@ -248,15 +275,25 @@ function Home() {
                 </div>
                 <div class='px-6 pt-4 pb-2'>
                   <span className='bg-cyan-700 rounded-full text-sm inline-block mr-2 mb-2 py-1 px-3 hover:bg-cyan-800 text-white font-semibold'>
-                    <a href='https://www.peterfisk.com/gamechanger/planetary-resources/'>
+                    <a
+                      target='_blank'
+                      href='https://www.peterfisk.com/gamechanger/planetary-resources/'
+                    >
                       Planetary Resources
                     </a>
                   </span>
                   <span className='bg-slate-600 rounded-full text-sm inline-block mr-2 mb-2 py-1 px-3 hover:bg-slate-700 text-white font-semibold'>
-                    <a href='https://deepspace.industries/en/'>DSi</a>
+                    <a target='_blank' href='https://deepspace.industries/en/'>
+                      DSi
+                    </a>
                   </span>
                   <span className='bg-orange-500 rounded-full text-sm inline-block mr-2 mb-2 py-1 px-3 hover:bg-orange-600 text-black font-semibold'>
-                    <a href='https://asteroidminingcorporation.co.uk/'>AMC</a>
+                    <a
+                      target='_blank'
+                      href='https://asteroidminingcorporation.co.uk/'
+                    >
+                      AMC
+                    </a>
                   </span>
                 </div>
               </div>
@@ -277,17 +314,26 @@ function Home() {
                 </div>
                 <div class='px-6 pt-4 pb-2'>
                   <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=%23coralreefs&src=typed_query&f=top'>
+                    <a
+                      target='_blank'
+                      href='https://twitter.com/search?q=%23coralreefs&src=typed_query&f=top'
+                    >
                       #coralreefs
                     </a>
                   </span>
                   <span class=' hover:bg-gray-300 inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=%23aqualife&src=typed_query&f=top'>
+                    <a
+                      target='_blank'
+                      href='https://twitter.com/search?q=%23aqualife&src=typed_query&f=top'
+                    >
                       #aqualife
                     </a>
                   </span>
                   <span class=' hover:bg-gray-300 inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=%23sealife&src=typed_query&f=top'>
+                    <a
+                      target='_blank'
+                      href='https://twitter.com/search?q=%23sealife&src=typed_query&f=top'
+                    >
                       #sealife
                     </a>
                   </span>
@@ -311,17 +357,26 @@ function Home() {
                 </div>
                 <div class='px-6 pt-4 pb-2'>
                   <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=%20%23andes&src=typed_query&f=top'>
+                    <a
+                      target='_blank'
+                      href='https://twitter.com/search?q=%20%23andes&src=typed_query&f=top'
+                    >
                       #andes
                     </a>
                   </span>
                   <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=water%20reserves&src=typed_query&f=top'>
+                    <a
+                      target='_blank'
+                      href='https://twitter.com/search?q=water%20reserves&src=typed_query&f=top'
+                    >
                       #watereserves
                     </a>
                   </span>
                   <span class='inline-block hover:bg-gray-300 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
-                    <a href='https://twitter.com/search?q=%20%23nowaternolife&src=typed_query&f=top'>
+                    <a
+                      target='_blank'
+                      href='https://twitter.com/search?q=%20%23nowaternolife&src=typed_query&f=top'
+                    >
                       #nowaternolife
                     </a>
                   </span>
