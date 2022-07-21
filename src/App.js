@@ -3,7 +3,6 @@ import Logo from '../src/Images/logo512.png';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from '../src/Pages/About';
 import Contact from '../src/Pages/Contact';
-import Try from '../src/Pages/Try';
 import Home from './Pages/Home';
 import twitter_footer from '../src/Images/twitter_footer.png';
 import instagram_footer from '../src/Images/instagram_footer.png';
@@ -49,13 +48,6 @@ function App() {
                     >
                       <span className='font-black'>C</span>ontact
                     </Link>
-                    <Link
-                      to='/try'
-                      className='hover:bg-slate-900 text-slate-600 hover:text-white px-7 py-2 rounded-full text-sm font-medium'
-                      aria-current='page'
-                    >
-                      <span className='font-black'>T</span>ry it free
-                    </Link>
                   </div>
                 </div>
               </div>
@@ -66,7 +58,6 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/try' element={<Try />} />
         </Routes>
       </div>
       <footer>

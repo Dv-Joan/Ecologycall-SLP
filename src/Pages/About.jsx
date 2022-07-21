@@ -3,7 +3,38 @@ import certified from '../Images/certified-team.png';
 import timberland from '../Images/timberland.png';
 import optoro from '../Images/optoro.png';
 import PartnerCard from '../Components/PartnerCard';
+import Modal from 'react-modal';
+
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+  },
+};
+
+// Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
+Modal.setAppElement('#root');
 function About() {
+  let subtitle;
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    subtitle.style.color = '#e7e5e4';
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
   return (
     <div>
       <div className=' mx-36 my-32 grid gap-12 grid-cols-2'>
@@ -17,16 +48,92 @@ function About() {
               different types of talks, training and above all conferences to
               carry out our objective. as activists.Currently we are considered
               organically more than a team, a group of environmentalists who
-              fight
+              fight.
             </p>
-            <span className='font-Montserrat text-xm'>
-              Currently we are considered organically more than a team ?
-            </span>
-            <button className=' rounded-lg bg-slate-200 text-slate-800 font-Anek border-2 border-solid border-slate-500 hover:bg-cyan-500 active:bg-cyan-600 hover:border-slate-300 hover:text-slate-100 py-2 px-5 mr-5 my-5'>
-              Set Donation
-            </button>
+            <p className='font-Montserrat text-xm'>
+              If you consider it opportune to support us in some way, here below
+              you have options, we thank you !
+            </p>
+            <div>
+              <button
+                onClick={openModal}
+                className=' rounded-lg bg-slate-200 text-slate-800 font-Anek border-2 border-solid border-slate-500 hover:bg-cyan-500 active:bg-cyan-600 hover:border-slate-300 hover:text-slate-100 py-2 px-5 mr-5 my-5'
+              >
+                Donation
+              </button>
+              <Modal
+                isOpen={modalIsOpen}
+                onAfterOpen={afterOpenModal}
+                onRequestClose={closeModal}
+                style={customStyles}
+                contentLabel='Example Modal'
+              >
+                <div className='bg-slate-300 p-6 rounded-xl'>
+                  <h2
+                    className='font-Anek'
+                    ref={(_subtitle) => (subtitle = _subtitle)}
+                  >
+                    Este es el POP UP
+                  </h2>
+                  <button
+                    onClick={closeModal}
+                    className='rounded-lg bg-slate-200 text-slate-800 font-Anek hover:bg-cyan-500 active:bg-cyan-600 hover:text-slate-100 py-2 px-5 mr-5 my-5'
+                  >
+                    <svg
+                      version='1.1'
+                      id='Capa_1'
+                      xmlns='http://www.w3.org/2000/svg'
+                      x='0px'
+                      y='0px'
+                      viewBox='0 0 252 252'
+                      style='enable-background:new 0 0 156 252;'
+                      xml='preserve'
+                    >
+                      <g>
+                        <path
+                          d='M126,0C56.523,0,0,56.523,0,126s56.523,126,126,126s126-56.523,126-126S195.477,0,126,0z M126,234
+		c-59.551,0-108-48.449-108-108S66.449,18,126,18s108,48.449,108,108S185.551,234,126,234z'
+                        />
+                        <path
+                          d='M164.612,87.388c-3.515-3.515-9.213-3.515-12.728,0L126,113.272l-25.885-25.885c-3.515-3.515-9.213-3.515-12.728,0
+		c-3.515,3.515-3.515,9.213,0,12.728L113.272,126l-25.885,25.885c-3.515,3.515-3.515,9.213,0,12.728
+		c1.757,1.757,4.061,2.636,6.364,2.636s4.606-0.879,6.364-2.636L126,138.728l25.885,25.885c1.757,1.757,4.061,2.636,6.364,2.636
+		s4.606-0.879,6.364-2.636c3.515-3.515,3.515-9.213,0-12.728L138.728,126l25.885-25.885
+		C168.127,96.601,168.127,90.902,164.612,87.388z'
+                        />
+                      </g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                      <g></g>
+                    </svg>
+                  </button>
+                  <div>I am a modal</div>
+                  <form className=''>
+                    <textarea
+                      id='message'
+                      rows='4'
+                      class='block p-2.5 w-96 h-56 text-sm font-Montserrat text-gray-900 bg-gray-50 rounded-lg border-2 border-gray-300'
+                      placeholder='Your message...'
+                    ></textarea>
+                    <button>See More</button>
+                  </form>
+                </div>
+              </Modal>
+            </div>
             <button className='rounded-lg bg-slate-200 text-slate-800 font-Anek border-2 border-solid border-slate-500 hover:bg-cyan-500 active:bg-cyan-600 hover:border-slate-300 hover:text-slate-100 py-2 px-5 mr-5 my-5'>
-              Set Help
+              Patronize
             </button>
           </div>
         </div>
