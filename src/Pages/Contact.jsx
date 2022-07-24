@@ -46,8 +46,17 @@ function Contact() {
             </p>
           </div>
         </div>
-        <div className='bg-gray-100 p-7 rounded-xl'>
-          <p className='text-xm font-bold font-Montserrat pb-7'>Contact Form</p>
+        <div className='bg-gray-100 p-7 mb-36 rounded-xl'>
+          <div className='flex gap-80'>
+            <p className='text-xm font-bold font-Montserrat pb-7'>
+              Contact Form
+            </p>
+            <div>
+              <button className='border-2 rounded-md border-slate-700 text-xs text-slate-600 hover:text-slate-100 font-bold font-Montserrat hover:bg-slate-400  pl-3 pr-2 py-0.5 ml-36'>
+                Send ⫸
+              </button>
+            </div>
+          </div>
           <div className=''>
             <div className='flex gap-5'>
               <div>
@@ -130,27 +139,24 @@ function Contact() {
                 ></textarea>
               </div>
             </div>
-            <div className='my-7'>
+            <div className='mt-7'>
               <div>
                 {' '}
                 <p className='text-xs font-bold font-Montserrat'>Services</p>
               </div>
               <div>
                 <button className='rounded-lg bg-slate-300 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
-                  Set Help
+                  Earth Information
                 </button>
                 <button className='rounded-lg bg-slate-300 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
-                  Set Help
+                  Misions / Visions
                 </button>
                 <button className='rounded-lg bg-slate-300 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
-                  Set Help
+                  Pollution Level
                 </button>
 
                 <button className='rounded-lg bg-slate-300 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
-                  Set Help
-                </button>
-                <button className='rounded-lg bg-slate-300 text-slate-800 font-Anek  hover:bg-cyan-500 active:bg-cyan-600  hover:text-slate-100 py-1.5 text-xs px-5 mr-5 my-5'>
-                  Set Help
+                  About our Members
                 </button>
               </div>
             </div>
