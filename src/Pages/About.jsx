@@ -250,10 +250,7 @@ function About() {
           </p>
         </div>
         <div>
-          <button
-            onClick={<Contact />}
-            className='mt-10 rounded-lg bg-slate-200 text-slate-800 font-Anek border-2 border-solid border-slate-500 hover:bg-cyan-500 active:bg-cyan-600 hover:border-slate-300 hover:text-slate-100 py-2 px-5'
-          >
+          <button className='mt-10 rounded-lg bg-slate-200 text-slate-800 font-Anek border-2 border-solid border-slate-500 hover:bg-cyan-500 active:bg-cyan-600 hover:border-slate-300 hover:text-slate-100 py-2 px-5'>
             Contact Us
           </button>
         </div>
